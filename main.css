@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 2000px;
+    background-color: #FFFFFF;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+    height: 40px;
+    background-color: #7B258E;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    z-index: 1;
+}
+
+.h {
+    padding-left: 16px;
+    top: calc(50% - 40px/2);
+    min-width: 300px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+}
+
+.products {
+    position: relative;
+    width: 100%;
+    height: 440px;
+    background: #363636;
+}
+
+.tiles-group {
+    position: absolute;
+    left: 11.0%;
+    right: 11.0%;
+    top: 30.6%;
+    height: 322px;
+    min-width: 900px;
+}
+
+.prod-result {
+    position: absolute;
+    left: 0%;
+    top: 50%;
+    right: 75.0%;
+    bottom: 50%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 56px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.tile-vector {
+    position: absolute;
+    left: 31.1%;
+    right: 51.7%;
+    top: 0%;
+    bottom: 0%;
+    min-width: 166px;
+    cursor: pointer;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.tile-testIT {
+    position: absolute;
+    left: 56.9%;
+    right: 25.9%;
+    top: 0%;
+    bottom: 0%;
+    min-width: 166px;
+    cursor: pointer;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.tile-bimeister {
+    position: absolute;
+    left: 82.8%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    min-width: 166px;
+    cursor: pointer;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.tile-vector-img {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 46.58%;
+    background: #A01F1F;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.tile-testIT-img {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 46.58%;
+    background: #218593;
+    mix-blend-mode: normal;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.tile-bimeister-img {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 46.58%;
+    background: #0E3B7E;
+    mix-blend-mode: normal;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.tile-content {
+    position: absolute;
+    left: 0%;
+    top: 53.42%;
+    right: 0%;
+    bottom: 0%;
+    background: #FFFFFF;
+    box-shadow: 0em 0.3em 5px rgba(122, 122, 122, 0.5);
+}
+
+.tile-header {
+    position: absolute;
+    left: 7%;
+    right: 7%;
+    top: 16%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    color: #000000;
+}
+
+.tile-description {
+    position: absolute;
+    left: 10.5%;
+    right: 10.5%;
+    top: 44.7%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 16px;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
