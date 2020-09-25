@@ -1,11 +1,20 @@
+const _defaultProductName = prod.innerText;
+
 let _isSelected = false;
 let _selectedElement;
 let _oldBorder;
-const _defaultProductName = prod.innerText;
+let _tileDescription;
 
 main();
 
 async function main() {
+    _tileDescription = await (await fetch('./tileDescription.txt')).text();
+    let descElements = document.getElementsByClassName('tile-description');
+
+    for (let index = 0; index < descElements.length; index++) {
+        const element = descElements[index];
+        element.innerText = _tileDescription;
+    }
 
     window.onscroll = function() { scroll() };
 
